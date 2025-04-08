@@ -889,6 +889,19 @@ header {
   .contact-form {
     padding: 10px;
     margin-top: 0%;
+  position: fixed;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 999;
+  background: rgba(0, 0, 0, 0.75);
+  padding: 20px;
+  border-radius: 15px;
+  width: 90%;
+  max-width: 400px;
+  backdrop-filter: blur(10px);
+}
+
     }  
 
 
