@@ -13,6 +13,8 @@ body {
     background-position: 50%;
     color: white;
     text-align: left;
+   overscroll-behavior-y: contain;  
+  overflow-x: hidden;  
 }
 
 header {
